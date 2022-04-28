@@ -35,6 +35,7 @@ class App extends Component {
           onError={this.handleError}
           onScan={this.handleScan}
           legacyMode={true}
+          chooseDeviceId ="2"
           />
            
         <p>{this.state.result}</p>
